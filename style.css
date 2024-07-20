@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+#divMain>div{
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+}
+#divMain{
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#divMain>div>h1{
+    color: white;
+}
+
+@media screen and (max-width:403px) {
+    #divMain{
+        height: 900px;
+    }
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid dodgerblue;
+}
